@@ -1,6 +1,6 @@
 # PSO
 
-A PSO algorithms with Python.
+A particle swarm optimization algorithm with Python.
 
 ## How to use it
 

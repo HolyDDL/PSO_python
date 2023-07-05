@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 
 class Particle():
     
@@ -97,6 +96,7 @@ def PSO(numbers, objfun, x0s, v0s, vmax, w=0.9, c1=2, c2=2, max_tier_times=3000)
     return global_gBest, global_gBest_value, iterpoints
 
 if __name__ == '__main__':
+    import matplotlib.pyplot as plt
     def objfun(xs):
         f = 1
         for i,x in enumerate(xs):
